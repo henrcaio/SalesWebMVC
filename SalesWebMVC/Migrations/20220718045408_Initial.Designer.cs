@@ -2,11 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SalesWebMVC.Data;
 
-namespace SalesWebMVC.Migrations
-{
+namespace SalesWebMVC.Migrations {
     [DbContext(typeof(SalesWebMVCContext))]
     [Migration("20220718045408_Initial")]
     partial class Initial
